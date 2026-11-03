@@ -60,7 +60,7 @@ const server : Server = Bun.serve({
                     break;
 
                     case 'POST': users
-                        response.message = 'creating a newusers'
+                        response.message = 'creating a new users'
                         response.data = users
                         
                     default:
